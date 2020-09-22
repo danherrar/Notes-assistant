@@ -1,11 +1,11 @@
 import psycopg2
 
 def conn():
-    connection = psycopg2.connect(user = "postgres",
-                                password = "kuait",
-                                host = "127.0.0.1",
-                                port = "5432",
-                                database = "notes")
+    connection = psycopg2.connect(user = "",
+                                password = "",
+                                host = "",
+                                port = "",
+                                database = "")
 
     cursor = connection.cursor()
 
